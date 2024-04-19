@@ -78,6 +78,11 @@ html {
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
 	z-index: 3;
+	position: static;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
 }
 
 .active {
@@ -107,12 +112,12 @@ html {
 	transition: opacity 500ms;
 }
 
-.card:hover > .card-border{
+.gallery:hover > .card > .card-border{
 	opacity: 1;
 }
 
 .card > .card-content {
-	inset: 2px;
+	inset: 1px;
 	border-radius: inherit;
 	margin: 1px;
 	position: absolute;
@@ -128,12 +133,24 @@ html {
 	text-decoration: none;
 	text-align: center;
 	transition: transform 0.5s;
-	margin: 30vh 5vw;
+	margin: 30vh 3vw 1vh;
 }
 
 .item-title:hover {
-	transform: translateY(-2vh);
-	
+	transform: translateY(-2vh);	
+}
+
+.item-sub {
+	display: block;
+	text-align: center;
+}
+
+#projects {
+	height: 100vh;
+}
+
+#contact {
+	height: 100vh;
 }
 
 nav {
