@@ -90,10 +90,10 @@ html {
 }
 
 .card {
-	background-color: rgba(255,255,255,0.02);
+	background-color: rgba(255,255,255,0.3);
 	scroll-snap-align: center;
 	display: inline-block;
-	border-radius: 20px;
+	border-radius: 0px;
 	z-index: 3;
 	position: relative;
 }
@@ -122,6 +122,10 @@ html {
 	margin: 1px;
 	position: absolute;
 	z-index: 4;
+}
+
+.card-content:hover {
+	background-size: contain;
 }
 
 .item-title {
