@@ -56,9 +56,9 @@ html {
 
 .title {
 	color: ivory;
-	font-family: fino-sans;
+	font-family: amandine;
 	font-size: 7vw;
-	font-weight: 600;
+	font-weight: 700;
 	position: absolute;
 	
 	margin: 45vh 15vw;
@@ -145,6 +145,8 @@ html {
 }
 
 .item-sub {
+	font-family: fino-sans;
+	font-style: italic;
 	display: block;
 	text-align: center;
 }
