@@ -12,26 +12,17 @@
 </head>
 
 <body>
-	<nav>
-		<div id="nav-logo-section" class="nav-section">
-			<a href="#" class="nav-link">
-				<i class="fa-solid fa-circle-user"></i>
-			</a>
-		</div>
-		<div id="nav-link-section" class="nav-section">
-			<a href="#" class="nav-link">ABOUT ME</a>
-			<a href="#projects" class="nav-link">PROJECTS</a>
-		</div>
-		<div id="nav-social-section" class="nav-section">
-			<a href="#" class="nav-link">
-				<i class="fa-brands fa-linkedin"></i>
-			</a>
-		</div>
-			
-		<div id="nav-contact-section" class="nav-section">
-			<a href="#" class="nav-link">CONTACT</a>
-		</div>
-	</nav>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("./nav.html");
+});
+</script>
+<!--Navigation bar-->
+	
 	<div id="blob"></div>
 	<div id="blur"></div>
 	<main>
@@ -48,14 +39,14 @@
 			<ul class="gallery" id="project-gallery">
 			<li class="card">
 				<div class="card-border"></div>
-				<div class="card-content" style="background-image: url('./img/glowble_01.jpg'); background-size: cover;">
+				<div class="card-content" style="background-image: url('./img/glowble_01.webp'); background-size: cover;">
 					<a href="#" class="item-title">GLOWBLE</a>
 					<span class="item-sub">Interactive Lighting Installation <br> 2023</span>
 				</div>
 			</li>
 			<li class="card">
 				<div class="card-border"></div>
-				<div class="card-content" style="background-image: url('./img/wayfinding_01.jpg'); background-size: cover;">
+				<div class="card-content" style="background-image: url('./img/wayfinding_01.webp'); background-size: cover;">
 					<a href="#" class="item-title">Paper Trails</a>
 					<span class="item-sub">Temporary Lighting Installation <br> 2022 - 2023 </span>
 				</div>
@@ -69,7 +60,7 @@
 			</li>
 			<li class="card">
 				<div class="card-border"></div>
-				<div class="card-content" style="background-image: url('./img/Room 1_5_edited.png'); background-size: cover;">
+				<div class="card-content" style="background-image: url('./img/Office.webp'); background-size: cover;">
 					<a href="#" class="item-title">Office Lighting Design</a>
 					<span class="item-sub">Indoor lighting concept <br> 2024</span>
 				</div>

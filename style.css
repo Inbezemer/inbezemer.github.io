@@ -67,6 +67,19 @@ html {
 	text-align: center;
 }
 
+.mediumtext {
+	color: ivory;
+	font-family: quicksand;
+	font-size: 1vw;
+	font-weight: 200;
+	position: absolute;
+	
+	margin: 15vh 25vw;
+	width: 50vw;
+	z-index: 3;
+	text-align: center;
+}
+
 .gallery {
 	padding: 1rem;
 	display: grid;
