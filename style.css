@@ -191,8 +191,13 @@ nav > .nav-section {
 	justify-content: center;
 }
 
-#nav-logo-section,#nav-link-section {
-	flex-basis: calc(100% /3);
+#nav-logo-section {
+	flex-basis: calc(6%);
+}
+
+#nav-link-section {
+	flex-basis: calc(64%);
+	gap: 10vw;
 }
 
 #nav-logo-section{
@@ -203,15 +208,78 @@ nav > .nav-section {
 	flex-grow: 1;
 }
 
-#nav-link-section{
-	gap: 6rem;
-}
-
 .nav-link{
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	font-weight: 400;
 	color: ivory;
 	text-decoration: none;
+}
+
+.project-reflection {
+	display: flex;
+	width: 100%;
+	z-index: 3;
+	margin-bottom: 0vh;
+}
+
+.project-reflection > .project-image {
+	height: 90vh;
+	display: flex;
+	gap: 1rem;
+	border-left: 1px solid rgba(255,255,255,1.00);
+	justify-content: center;
+	flex-basis: 64%;
+	z-index: 3;
+}
+
+.project-reflection > .project-id {
+	padding: 2rem 2rem;
+	display: flex;
+	gap: 1rem;
+	border-left: 1px solid rgba(255,255,255,1.00);
+	justify-content: center;
+	flex-basis: 6%;
+	z-index: 3;
+}
+
+.project-reflection > .project-text {
+	box-sizing: border-box;
+	display: flex;
+	border-left: 1px solid rgba(255,255,255,1.00);
+	justify-content: center;
+	flex-grow: 1;
+	z-index: 3;
+}
+
+.project-reflection > .project-text > h1 {
+	color: ivory;
+	padding: 5% 2%;
+	font-family: amandine;
+	font-size: 1.8vw;
+	font-weight: 700;
+	position: absolute;
+	z-index: 3;
+	text-align: center;
+}
+
+.project-reflection > .project-text > h2 {
+	color: ivory;
+	padding: 10% 2%;
+	font-family: quicksand;
+	font-size: 0.8vw;
+	font-weight: 200;
+	position: absolute;
+	z-index: 3;
+	text-align: center;
+}
+
+.project-id > h1 {
+	writing-mode: vertical-rl;
+	color: ivory;
+	font-family: amandine;
+	font-size: 1.4vw;
+	font-weight: 700;
+	z-index: 3;
 }
 
 #splash {
