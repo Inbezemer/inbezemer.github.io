@@ -381,14 +381,145 @@ nav > .nav-section {
 	text-align: left;
 }
 
+.about-ref {
+	color: ivory;
+	font-family: quicksand;
+	margin-left: 0.5vw;
+	font-size: 0.6vw;
+	font-weight: 300;
+	position: absolute;
+	z-index: 4;
+	text-align: center;
+}
+
+.EA {
+	width: 64vw;
+	margin-left: 6vw;
+	height: 50vh;
+}
+
+.EA > h1 {
+	color: ivory;
+	width: 64vw;
+	padding-left: 8%;
+	font-family: amandine;
+	font-size: 1.4vw;
+	font-weight: 700;
+	position: absolute;
+	z-index: 3;
+	text-align: left;
+}
+
+.EA > h2 {
+	color: ivory;
+	width: 64vw;
+	padding: 3% 8%;
+	font-family: quicksand;
+	font-size: 0.7vw;
+	font-weight: 200;
+	position: absolute;
+	z-index: 3;
+	text-align: left;
+}
+
+#future > h1 {
+	color: ivory;
+	font-family: amandine;
+	font-size: 7vw;
+	font-weight: 700;
+	position: absolute;
+	
+	margin: 10vh 15vw;
+	width: 70vw;
+	z-index: 3;
+	text-align: center;
+}
+
+#ca {
+	margin-top: 20vh;
+}
+
 #splash {
 	height: 100vh;
 	position: static;
 }
 
+#splash > h2 {
+	color: ivory;
+	font-family: fino-sans;
+	font-size: 2.5vw;
+	font-weight: 300;
+	position: absolute;
+	
+	margin: 60vh 25vw;
+	width: 70vw;
+	z-index: 3;
+	text-align: center;
+}
+
+#splash > h3 {
+	color: ivory;
+	font-family: fino-sans;
+	font-style: italic;
+	letter-spacing: 4px;
+	font-size: 1vw;
+	font-weight: 300;
+	position: absolute;
+	
+	margin: 65vh 25vw;
+	width: 70vw;
+	z-index: 3;
+	text-align: center;
+}
+
 #hero {
-	height: 100vh;
 	position: static;
+	display: flex;
+	width: 100%;
+	z-index: 3;
+}
+
+#hero-image {
+	flex-basis: 40vw;
+	z-index: inherit;
+	margin-left: 6vw;
+	height: 90vh;
+}
+
+#hero-text {
+	flex-grow: 1;
+	z-index: inherit;
+}
+
+#hero-text > p {
+	color: ivory;
+	font-family: quicksand;
+	font-size: 0.8vw;
+	font-weight: 200;
+	position: absolute;
+	display: inline;
+	height: 1vh;
+	
+	padding: 20vh 6vw;
+	width: 50vw;
+	z-index: 3;
+	text-align: left;
+}
+
+#contact-text {
+	color: ivory;
+	font-family: quicksand;
+	font-size: 1vw;
+	font-weight: 200;
+	position: absolute;
+	display: inline;
+	height: 5vh;
+	
+	padding-bottom: 30vh;
+	
+	width: 100vw;
+	z-index: 3;
+	text-align: center;
 }
 
 #growth {
@@ -397,8 +528,22 @@ nav > .nav-section {
 }
 
 #future {
-	height: 70vh;
+	height: 45vh;
 	position: static;
+}
+
+#future-text {
+	color: ivory;
+	font-family: quicksand;
+	font-size: 1vw;
+	font-weight: 200;
+	position: absolute;
+	
+	margin: 0 25vw;
+	height: 50vh;
+	width: 50vw;
+	z-index: 3;
+	text-align: center;
 }
 
 * {
