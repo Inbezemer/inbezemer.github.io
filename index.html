@@ -51,7 +51,7 @@ $(function(){
 		</div>
 -->
 			<div id="landing-gallery" class="hidden">
-				<ul class="gallery" id="project-gallery" style="grid-template-columns: repeat(6, 40vh); height: 50vh;">
+				<ul class="gallery" id="project-gallery" style="grid-template-columns: repeat(6, 60vh); height: 50vh;">
 				<li class="card">
 					<div class="card-border"></div>
 					<div class="card-content" style="background-image: url('./img/Chiaro_01.webp'); background-size: cover; background-position: 0% 50%;">
@@ -99,10 +99,44 @@ $(function(){
 			<h1 class="title">Contact</h1>
 		</div>
 		
-		<div id="contact-text">inbezemer@gmail.com <br>
+		<div id="contact-text" style="height: 70vh;">inbezemer@gmail.com <br>
 		i.n.bezemer@student.tue.nl <br><br>
 			
 		Instagram: @i_n_bezemer
+		</div>
+		<div id="contact-form">
+  			<form
+  action="https://formspree.io/f/meokdglz"
+  class="fs-form"
+  target="_top"
+  method="POST"
+  style="z-index: 3; width: 80vw; margin-left: 10vw;"
+>
+  <div class="fs-field">
+    <label class="fs-label" for="name">Your Name</label>
+    <input class="fs-input" id="name" name="name" required />
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="email">Email</label>
+    <input class="fs-input" id="email" name="email" required />
+    <p class="fs-description">
+      This will help me respond to your query via an email.
+    </p>
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="message">Message</label>
+    <textarea
+      class="fs-textarea"
+      id="message"
+      name="message"
+      required
+    ></textarea>
+    <p class="fs-description">What would you like to discuss?</p>
+  </div>
+  <div class="fs-button-group">
+    <button class="fs-button" type="submit">Submit</button>
+  </div>
+</form>
 		</div>
 	</main>
 	
